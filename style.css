@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+ }
+
+.menu{ 
+    color:#fff;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:10%;
+    left:15%;
+    background-color: black;
+    color: #ffb600;
+    border-bottom: 5px solid #ffb600;
+    border-bottom-width: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+    .selected{
+        color:#ffb600;
+    }
+
+a{
+    color: #fff;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+
+
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    font-size: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texto{
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    font-size: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+.net{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.net img{
+    width: 450px;
+  height:330px ;
+  margin-bottom: 5%;
+  transition: width 2s;
+  margin:10px auto;
+  border: 2px solid #fff;
+}
+.net img:hover{
+    width:600px;
+}
+
+.text{
+    margin:20px 30px 20px 30px;
+    color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border-style: solid;
+    border-color: #fff;
+    margin-right:20%;
+    margin-left: 20%;
+    margin-top: 7%;
+    margin-bottom:7%;
+    line-height: 2em;
+
+}
+.text::first-letter{
+    color: red;
+}
+.tt{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+ .contac{height: 300px;
+    width: 800px;
+    margin-top: 10px;
+ }
+
+ 
+
+ .horario{
+    color:#fff;
+    position: absolute;
+    left:10%;
+    margin-top:3%;
+    font-size: 21px;
+    
+ }
+ .formulario{
+    position: relative;
+    background-color:rgb(206, 128, 72);
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    height: 400px;
+    width: 700px;
+    margin-top: 13%;
+    margin-right: 50%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-right: 40px;
+  }
+
+ h2{
+    color:#fff;
+    position: absolute;
+    margin-left: 70px;
+    
+  }
+ .brasas{
+    width: 1250px;
+    height: 240px;
+  }
+
+ .lista{
+  color:#fff;
+  border-color: #fff;
+  border-style: solid;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top:3em;
+  align-content: left;
+  }
+
+ .paella{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+  }
+
+ .paella img{
+    width: 400px;
+    height:400px;
+    margin-bottom: 40px;
+    transition: width 2s;
+    margin:10px auto;
+  border: 2px solid #fff;
+  }
+
+ .paella img:hover{
+    width:550px;
+  }
+
+
+
+
+ 
